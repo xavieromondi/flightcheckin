@@ -7,8 +7,8 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class ReservationRestClientImpl implements ReservationRestClient {
 
-    public static final String FIND_URL = "http://localhost:8080/reservation/reservations/";
-    public static final String UPDATE_URL = "http://localhost:8080/reservation/reservations";
+    public static final String FIND_URL = "http://localhost:8080/reservations/";
+    public static final String UPDATE_URL = "http://localhost:8080/reservations";
 
 
     @Override
